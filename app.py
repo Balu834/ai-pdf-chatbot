@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_SERVER_WATCH_FILE_SYSTEM"] = "false"
 from pypdf import PdfReader
 
 pdf_file = input("Enter PDF file name: ")
